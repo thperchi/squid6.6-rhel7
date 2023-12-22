@@ -154,7 +154,7 @@ make install DESTDIR=$RPM_BUILD_ROOT
 ### Obtenir le Code Source de Squid
 
 3. **Télécharger le Code Source** :
-   - Téléchargez le code source de Squid 6.6. Assurez-vous que le fichier source correspond à l'URL spécifiée dans votre fichier spec (`Source0`).
+   - Téléchargez le code source de Squid 6.6 (https://src.fedoraproject.org/repo/pkgs/squid/squid-6.6.tar.xz/sha512/4ab261ed85ad674288467500aca9d8a48e3918b55f777635c0ba7a2551f248d35536848a5fbf2c946490a818004727f2aed33144f0a3ebab0be36cc4cffb020c/). Assurez-vous que le fichier source correspond à l'URL spécifiée dans votre fichier spec (`Source0`).
    - Placez le fichier tar.gz téléchargé dans `~/rpmbuild/SOURCES/`.
 
 ### Construire le Package RPM
